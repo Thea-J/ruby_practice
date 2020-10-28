@@ -1,7 +1,9 @@
-#Accepts a time (integer) to count down from & a message (string)
-#Returns a countdown from the timer to 1 & the message
+#Accepts a time (integer) & a message (string)
+#Prints a countdown from the timer to 1 followed by the message
 def countdown(time, message)
-    #counts down from the time
-    # if the time is 0, print & return the message
-
+    while time > 0
+        puts time
+        time-=1
+    end
+    puts message
 end

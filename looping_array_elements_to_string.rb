@@ -10,7 +10,7 @@ end
 def return_string_array(array)
    index = 0 
    string_array = []
-   while index < array.length
+   while index < array.length do
     string_array.push(array[index].to_s)
     index +=1
    end

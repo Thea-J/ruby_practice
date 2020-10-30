@@ -18,3 +18,8 @@ loop do
     puts "i is #{i}"
     i-=1
 end
+
+#Using .insert to destructively add an element into an array
+def insert_element_at_given_index(array, index, element)
+    array.insert(index, element)
+end

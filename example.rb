@@ -23,3 +23,7 @@ end
 def insert_element_at_given_index(array, index, element)
     array.insert(index, element)
 end
+
+#Array methods to remember .delete(element), .delete_at(index), .join("seperator")
+#String methods to remember .split("seperator")
+#Other methods to remember %w[],  

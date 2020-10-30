@@ -6,9 +6,9 @@ def two_sum(nums, target)
     solution = []
     i = 0
     #Example: i=0, j=1, 2, 3, 4
-    while i < nums.length - 1
+    while i < nums.length - 1 do
        j = i+1
-       while j < nums.length
+       while j < nums.length do
          if nums[i] + nums[j] == target 
            return solution.push(i, j)
          end

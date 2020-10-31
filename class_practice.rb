@@ -47,5 +47,10 @@ class Dog
         "The Dog class has #{@@count} instances"
         "The Dog class has #{@@all.length} instances"
     end
+    
+    #Inside the scope of a class method, the self reserved word reffers to the entire class, such that you can execute self.class_methods 
+    def self.testing_class_scope
+        self.number_of_instances
+    end
 binding.pry
 end

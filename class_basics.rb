@@ -1,6 +1,11 @@
 require 'pry'
 #Define a class
 class Dog
+    
+    #Define a writer & reader method in 1
+    attr_accessor :name, :age, :owner
+    #Define a reader method that returns the value stored in the instance variable 
+    attr_reader :breed 
 
     #Define a class variable - This can be called & manipulated in both class & instance methods 
     @@all=[]
@@ -16,12 +21,6 @@ class Dog
         @@count+=1
     end
 
-    #Define a writer & reader method in 1
-    attr_accessor :name, :age
-    #Define a reader method that returns the value stored in the instance variable 
-    attr_reader :breed 
-
-    
     #Define a writer instance method, that stores a given value in an instance variable
     def new_age=(age)
         @updated_age = age
